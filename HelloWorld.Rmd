@@ -2,8 +2,11 @@
 title: "HelloWorld"
 author: "Nicolás"
 date: "25/2/2020"
-output: pdf_document
+output: html_document
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-## This is an R Markdown document
+## This is an R Markdown document.
